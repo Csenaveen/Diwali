@@ -72,7 +72,7 @@ overlay.on('click', debounce(function (e) {
 
 
 function startLampsAnimation() {
-    const lampCount = 10; 
+    const lampCount = 8; 
     const lamps = [];
     const angleIncrement = (2 * Math.PI) / lampCount;
 
@@ -80,8 +80,8 @@ function startLampsAnimation() {
     for (let i = 0; i < lampCount; i++) {
         const lamp = $('<img class="lamp" src="lamp2.png" alt="Diwali Lamp">'); 
         const angle = i * angleIncrement;
-        const x = Math.cos(angle) * 150; 
-        const y = Math.sin(angle) * 150;
+        const x = Math.cos(angle) * 120; 
+        const y = Math.sin(angle) * 120;
 
         
         lamp.css({
