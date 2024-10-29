@@ -183,12 +183,9 @@ body {
         font-size: 4em;
     }
 
-    /* .typewrite-text{
-        font-size: 17px;
-        font-weight: 500;
-        transform: scale(1.01);
-       
-    } */
+    .typewrite-text{
+     margin-top:10px;
+    }
 
     .lamp {
         width: 40%;
